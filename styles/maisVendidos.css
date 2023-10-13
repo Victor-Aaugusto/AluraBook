@@ -1,0 +1,95 @@
+.vendido__titulo {
+  background-color: var(--branco);
+  text-align: center;
+  color: var(--laranja);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.estrelinhas {
+  width: 100px;
+  margin-bottom: 0.6em;
+}
+
+.card__descrição__mais-vendidos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__botões__mais-vendidos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__mais-vendidos {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--branco);
+}
+
+.descrição__titulo__mais-vendidos {
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.descrição__mais-vendidos-autora {
+  color: var(--azul);
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0.5em 0;
+}
+
+.descrição__imagem {
+  margin: 0 0 1em 1em;
+}
+
+.descrição__texto__mais-vendidos {
+  line-height: 21px;
+}
+.img__escritora {
+  width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .descrição__mais-vendidos-autora {
+    margin: 1em 0;
+  }
+  .swiper-pagination {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrosel__container {
+    display: flex;
+    margin: 0 20vw 3em 20vw;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+  .swiper {
+    width: 50%;
+  }
+  .descrição__titulo {
+    font-size: 32px;
+  }
+
+  .descrição {
+    margin-right: 2em;
+  }
+
+  .descrição__texto {
+    font-size: 16px;
+  }
+  .ccard__mais-vendidos {
+    width: 100%;
+    margin-left: 3em;
+  }
+}
